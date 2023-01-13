@@ -32,7 +32,7 @@ final class AllRatesViewController: UIViewController {
     
     private let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "Icons Left")
+        imageView.image = UIImage(named: "callendar")
         return imageView
     }()
     
@@ -40,6 +40,7 @@ final class AllRatesViewController: UIViewController {
         let datePicker = UIDatePicker()
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.datePickerMode = .date
+        datePicker.maximumDate = Date()
         return datePicker
     }()
     

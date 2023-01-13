@@ -25,20 +25,11 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App version 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rR7-jc-wdV">
-                                        <rect key="frame" x="135" y="781" width="120" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" name="linkColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="rR7-jc-wdV" secondAttribute="trailing" constant="135" id="GYm-jo-abU"/>
                                     <constraint firstItem="gXV-hm-h96" firstAttribute="leading" secondItem="Jfs-dL-MKb" secondAttribute="leading" constant="95" id="I5J-az-zHJ"/>
                                     <constraint firstAttribute="bottom" secondItem="gXV-hm-h96" secondAttribute="bottom" constant="386" id="JZi-pc-ljy"/>
-                                    <constraint firstItem="rR7-jc-wdV" firstAttribute="leading" secondItem="Jfs-dL-MKb" secondAttribute="leading" constant="135" id="LCk-v9-S9f"/>
-                                    <constraint firstAttribute="bottom" secondItem="rR7-jc-wdV" secondAttribute="bottom" constant="42" id="caA-zB-izu"/>
                                     <constraint firstItem="gXV-hm-h96" firstAttribute="top" secondItem="Jfs-dL-MKb" secondAttribute="top" constant="386" id="fCN-LW-Yze"/>
                                     <constraint firstAttribute="trailing" secondItem="gXV-hm-h96" secondAttribute="trailing" constant="95" id="kM5-5w-JIR"/>
                                 </constraints>
